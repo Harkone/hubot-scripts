@@ -25,7 +25,10 @@ module.exports = (robot) ->
       'outside',
       'madison',
       'nugget',
-      'yoda'
+      'yoda',
+      'bus',
+      'bday',
+      'shutup'
     ]
 
     from = msg.message.user.name
@@ -56,7 +59,14 @@ module.exports = (robot) ->
         'fascinating',
         'cool',
         'what',
-        'because'
+        'because',
+        'bye',
+        'diabetes',
+        'awesome',
+        'tucker',
+        'bucket',
+        'family',
+        'zayn'
       ]
       random_fu = msg.random options
       # call /option/to
